@@ -46,7 +46,7 @@ Before building the model, the data underwent several preprocessing steps:
 ## **Modelling**
 ### **Model 1 - Baseline Convolutional Neural Network (CNN) model**
 The model is used for binary image classification. The architecture comprises convolutional layers with increasing filters, followed by max-pooling layers to capture features. Flattened outputs are fed through dense layers, eventually leading to a two-unit softmax layer for classification. The model is compiled with Sparse Categorical cross-entropy loss and trained for five epochs using training and validation data, enabling it to learn and enhance its classification capabilities over time. 
-The original model's test accuracy of 0.74 and test loss of 0.9644762277603149 might have been influenced by the following factors:
+The original model's test accuracy of 0.78 and test loss of 0.42 might have been influenced by the following factors:
 - _Model Complexity:_ The original model's architecture might not have been complex enough to capture intricate patterns within the data, leading to suboptimal performance.
 - _Overfitting:_ Without regularization techniques like dropout, the original model could have overfitted the training data, resulting in reduced generalization ability and higher test loss.
 
